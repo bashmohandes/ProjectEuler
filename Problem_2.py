@@ -1,8 +1,19 @@
 #! /usr/bin/env python
+from Memoize import Memoize
 
 __author__ = 'mohamed.elsherif'
 
-memo = {}
+
+@Memoize
+def fib(n):
+    if n < 2:
+        return n
+    f = fib(n - 1) + fib(n - 2)
+    return f
+
+
+def is_even(n):
+    return n % 2 == 0
 
 
 def main():
@@ -17,20 +28,6 @@ def main():
         else:
             break
     print result_sum
-
-
-def fib(n):
-    if n in memo:
-        return memo[n]
-    if n < 2:
-        return n
-    f = fib(n - 1) + fib(n - 2)
-    memo[n] = f
-    return f
-
-
-def is_even(n):
-    return n % 2 == 0
 
 
 if __name__ == "__main__":
