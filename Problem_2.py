@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 from Memoize import Memoize
-
+from utils import is_even
 __author__ = 'mohamed.elsherif'
 
 
@@ -10,10 +10,6 @@ def fib(n):
         return n
     f = fib(n - 1) + fib(n - 2)
     return f
-
-
-def is_even(n):
-    return n % 2 == 0
 
 
 def main():
