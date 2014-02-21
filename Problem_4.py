@@ -1,7 +1,9 @@
 __author__ = 'Mohamed'
 
+
 def is_palindrome(num):
     return num == reverse_num(num)
+
 
 def reverse_num(num):
     r = 0
@@ -9,6 +11,7 @@ def reverse_num(num):
         r = r * 10 + num % 10
         num /= 10
     return r
+
 
 def main():
     start_range = 100

@@ -4,14 +4,6 @@ from utils import is_even
 __author__ = 'mohamed.elsherif'
 
 
-@Memoize
-def fib(n):
-    if n < 2:
-        return n
-    f = fib(n - 1) + fib(n - 2)
-    return f
-
-
 def main():
     i = 1
     result_sum = 0

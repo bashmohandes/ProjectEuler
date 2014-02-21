@@ -1,6 +1,15 @@
-from math import sqrt
-
 __author__ = 'Mohamed'
+
+from math import sqrt
+from Memoize import Memoize
+
+
+@Memoize
+def fib(n):
+    if n < 2:
+        return n
+    f = fib(n - 1) + fib(n - 2)
+    return f
 
 
 def is_even(n):
@@ -19,3 +28,12 @@ def is_prime(n):
             return False
     return True
 
+
+@Memoize
+def fact(n):
+    if n == 0:
+        return 1
+    result = 1
+    for i in xrange(1, n + 1):
+        result *= i
+    return result
