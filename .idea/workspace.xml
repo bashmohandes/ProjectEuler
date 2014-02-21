@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86a37728-cfdf-4d44-a440-4eedcd58b918" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problem_53.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Memoize.py" afterPath="$PROJECT_DIR$/Memoize.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Problem_2.py" afterPath="$PROJECT_DIR$/Problem_2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Problem_4.py" afterPath="$PROJECT_DIR$/Problem_4.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ProjectEuler.iml" afterPath="$PROJECT_DIR$/.idea/ProjectEuler.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="86a37728-cfdf-4d44-a440-4eedcd58b918" name="Default" comment="" />
     <ignored path="ProjectEuler.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
