@@ -2,6 +2,8 @@
 from AutoMeasure import AutoMeasure
 from utils import fact
 
+import itertools
+
 def reversed_xrange(n):
 	for i in xrange(n-1, -1, -1):
 		yield i
@@ -23,14 +25,24 @@ def next_perm(l):
 					return l
 	return l
 
+def stolen():
+	x = itertools.permutations('0123456789', 10)
+	counter = 0
+	for i in x:
+	    counter += 1
+	    if counter == 1000000:
+	        print i
+	    else:
+	        pass
 
 @AutoMeasure
 def main():
-	input = [0, 1, 2, 3, 4 , 5, 6, 7, 8]
-	#input = [0, 1, 2]
+	#input = [0, 1, 2, 3, 4 , 5, 6, 7, 8]
+	input = [0, 1, 2]
 	for i in xrange(fact(len(input))):
 		print input
 		input = next_perm(input)		
+
 
 
 if __name__ == "__main__":
