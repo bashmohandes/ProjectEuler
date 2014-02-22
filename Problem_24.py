@@ -16,13 +16,7 @@ def next_perm(l):
             for j in reversed_xrange(len(l)):
                 if l[k] < l[j]:
                     l[k], l[j] = l[j], l[k]
-                    #l = l[:k+1] + l[k+1:][::-1]
-                    x = k + 1
-                    y = len(l) - 1
-                    while x < y:
-                        l[x], l[y] = l[y], l[x]
-                        x += 1
-                        y -= 1
+                    l = l[:k+1] + l[k+1:][::-1]                    
                     return l
     return l
 
