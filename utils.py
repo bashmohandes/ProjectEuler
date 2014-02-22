@@ -37,3 +37,32 @@ def fact(n):
     for i in xrange(1, n + 1):
         result *= i
     return result
+
+
+class OrderedPermutations:
+    def __init__(self, start):
+        self.start = start
+        self.current = None
+
+    def __iter__(self):
+        return self
+
+    def reversed_xrange(self, n):
+        for i in xrange(n - 1, -1, -1):
+            yield i        
+
+    def next(self):
+        if not self.current:
+            self.current = self.start
+            return self.start
+        for k in self.reversed_xrange(len(self.current) - 1):
+            if self.current[k] < self.current[k + 1]:
+                for j in self.reversed_xrange(len(self.current)):
+                    if self.current[k] < self.current[j]:
+                        self.current[k], self.current[j] = self.current[j], self.current[k]
+                        self.current = self.current[:k+1] + self.current[k+1:][::-1]                        
+                        return self.current
+        return self.current
+
+
+
