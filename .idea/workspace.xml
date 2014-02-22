@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86a37728-cfdf-4d44-a440-4eedcd58b918" name="Default" comment="" />
+    <list default="true" id="86a37728-cfdf-4d44-a440-4eedcd58b918" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Problem_24.py" afterPath="$PROJECT_DIR$/Problem_24.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ProjectEuler.iml" afterPath="$PROJECT_DIR$/.idea/ProjectEuler.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ProjectEuler.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +31,7 @@
       <file leaf-file-name="Problem_2.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -35,7 +40,7 @@
       <file leaf-file-name="Memoize.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memoize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+            <state line="13" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -44,16 +49,7 @@
       <file leaf-file-name="Problem_4.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="748">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem_53.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problem_53.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="29" selection-start="262" selection-end="262" vertical-scroll-proportion="0.48125" vertical-offset="0" max-vertical-offset="640">
+            <state line="12" column="17" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -62,9 +58,18 @@
       <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+            <state line="39" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="-25.84" vertical-offset="0" max-vertical-offset="748">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem_24.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problem_24.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="28" selection-start="787" selection-end="787" vertical-scroll-proportion="0.62981576" vertical-offset="168" max-vertical-offset="765">
               <folding>
-                <element signature="e#24#45#0" expanded="true" />
+                <element signature="e#23#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,14 +99,14 @@
         <option value="$PROJECT_DIR$/Problem_53.py" />
         <option value="$PROJECT_DIR$/Problem_4.py" />
         <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/Problem_24.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -129,7 +134,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,6 +154,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,7 +171,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.Problem_53">
+  <component name="RunManager" selected="Python.Problem_24">
     <configuration default="false" name="Problem_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,6 +241,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ProjectEuler" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem_53.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem_24" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ProjectEuler" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem_24.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -362,18 +385,20 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Problem_2" />
       <item index="1" class="java.lang.String" itemvalue="Python.Problem_3" />
       <item index="2" class="java.lang.String" itemvalue="Python.Problem_4" />
       <item index="3" class="java.lang.String" itemvalue="Python.Problem_53" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Problem_24" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.Problem_53" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Problem_4" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Problem_3" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Problem_2" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Problem_24" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Problem_53" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Problem_4" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Problem_3" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Problem_2" />
       </list>
     </recent_temporary>
   </component>
@@ -409,18 +434,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29427084" sideWeight="0.6714443" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2934322" sideWeight="0.6714443" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272727" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33226153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3351709" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -460,6 +485,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Problem_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="31" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memoize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Problem_4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="20" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="682">
@@ -484,9 +537,7 @@
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -514,9 +565,7 @@
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="594">
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -555,38 +604,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Memoize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+        <state line="13" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="748">
+        <state line="12" column="17" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-          </folding>
+        <state line="39" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="-25.84" vertical-offset="0" max-vertical-offset="748">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem_53.py">
+    <entry file="file://$PROJECT_DIR$/Problem_24.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="262" selection-end="262" vertical-scroll-proportion="0.48125" vertical-offset="0" max-vertical-offset="640">
-          <folding />
+        <state line="32" column="28" selection-start="787" selection-end="787" vertical-scroll-proportion="0.62981576" vertical-offset="168" max-vertical-offset="765">
+          <folding>
+            <element signature="e#23#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
