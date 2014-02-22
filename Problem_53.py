@@ -1,6 +1,7 @@
+#! /usr/bin/env python
 __author__ = 'mohamed.elsherif'
 from utils import fact
-
+from AutoMeasure import AutoMeasure
 
 def c(n, r):
     n_fact = fact(n)
@@ -8,7 +9,7 @@ def c(n, r):
     nr_fact = fact(n - r)
     return n_fact / (r_fact * nr_fact)
 
-
+@AutoMeasure
 def main():
     count = 0
     for n in range(1, 101):
