@@ -16,13 +16,12 @@ def main():
 			reminders[value] = pos
 			value *= 10
 			value %= i			
-			pos += 1
-		print i,reminders
+			pos += 1		
 		if pos - reminders[value] > max_seq:
 			max_seq = pos -reminders[value]
 			max_i = i
 
-	print max_i, max_seq
+	print "The number with max sequence is %d, maximum sequence length is %d" % (max_i, max_seq)
 
 if __name__ == "__main__":
 	main()
