@@ -15,7 +15,8 @@ def main():
 		while not reminders[value] and value != 0:			
 			reminders[value] = pos
 			value *= 10
-			value %= i			
+			value %= i
+			print value
 			pos += 1		
 		if pos - reminders[value] > max_seq:
 			max_seq = pos -reminders[value]
