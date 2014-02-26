@@ -3,11 +3,13 @@ __author__ = 'mohamed.elsherif'
 from utils import fact
 from AutoMeasure import AutoMeasure
 
+
 def c(n, r):
     n_fact = fact(n)
     r_fact = fact(r)
     nr_fact = fact(n - r)
     return n_fact / (r_fact * nr_fact)
+
 
 @AutoMeasure
 def main():
