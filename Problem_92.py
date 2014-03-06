@@ -1,5 +1,4 @@
 #! /usr/bin/env python
-from Memoize import Memoize
 from AutoMeasure import AutoMeasure
 __author__ = 'mohamed.elsherif'
 
