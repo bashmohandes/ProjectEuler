@@ -9,8 +9,7 @@ def next_number_in_chain(start):
     tmp = start
     result = 0
     while tmp > 0:
-        r = tmp % 10
-        result += r * r
+        result += (tmp % 10) ** 2
         tmp /= 10
     return result
 
