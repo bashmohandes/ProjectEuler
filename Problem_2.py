@@ -1,6 +1,5 @@
 #! /usr/bin/env python
-from Memoize import Memoize
-from utils import is_even
+from utils import is_even, fib
 __author__ = 'mohamed.elsherif'
 
 
