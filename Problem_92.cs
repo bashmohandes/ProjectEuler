@@ -1,45 +1,46 @@
-Dictionary<int, bool> cache = new Dictionary<int, bool>();
-void Main()
+static class IntExtensions
 {
-	cache.Add(1, false);
-	cache.Add(89, true);
-	int count = 0;
-	for(int i=1; i<=10000000; i++)
+	static Dictionary<int, bool> cache = new Dictionary<int, bool>();
+	public static bool EndsIn89(this int start)
 	{
-		if(EndsIn89(i))
-			count++;
+		int d = start;
+		while(true)
+		{
+			bool b;
+			if(cache.TryGetValue(d, out b))
+			{
+				cache[d] = b;
+				return b;
+			}
+			d = NextNumberInChain(d);
+		}	
 	}
 	
-	Console.WriteLine(count);
-}
-
-
-int NextNumberInChain(int start)
-{
-	int tmp = start;
-	int result = 0;
-	while(tmp > 0)
+	static IntExtensions() 
 	{
-		int r = tmp % 10;
-		result += r * r;
-		tmp /= 10;
+		cache.Add(1, false);
+		cache.Add(89, true);
 	}
-	return result;
-}
-
-bool EndsIn89(int start)
-{
-	int d = start;
-	while(true)
+	
+	static int NextNumberInChain(int start)
 	{
-		bool b;
-		if(cache.TryGetValue(d, out b))
+		int tmp = start;
+		int result = 0;
+		while(tmp > 0)
 		{
-			cache[d] = b;
-			return b;
+			int r = tmp % 10;
+			result += r * r;
+			tmp /= 10;
 		}
-		d = NextNumberInChain(d);
-	}	
+		return result;
+	}
 }
 
-// Define other methods and classes here
+void Main()
+{
+	Console.WriteLine(
+		Enumerable.Range(1, 10000000).Count(e => e.EndsIn89())
+		);
+}
+
+
