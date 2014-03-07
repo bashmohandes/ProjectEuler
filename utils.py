@@ -2,7 +2,7 @@ __author__ = 'Mohamed'
 
 from math import sqrt
 from Memoize import Memoize
-
+import fractions
 
 @Memoize
 def fib(n):
@@ -27,6 +27,21 @@ def is_prime(n):
         if n != i and n % i == 0:
             return False
     return True
+
+
+def gcd(l):
+    return reduce(fractions.gcd, l)
+
+
+def lcm(a, b):
+    g = fractions.gcd(a, b)
+    if g == 0:
+        return 0
+    return abs(a * b) / g
+
+
+def lcm_list(l):
+    return reduce(lcm, l)
 
 
 @Memoize

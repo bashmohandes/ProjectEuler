@@ -16,7 +16,6 @@ def main():
 			reminders[value] = pos
 			value *= 10
 			value %= i
-			print value
 			pos += 1		
 		if pos - reminders[value] > max_seq:
 			max_seq = pos -reminders[value]
