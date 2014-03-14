@@ -31,15 +31,15 @@ def main():
     max_range = 9876
     min_range = 9123
     for i in xrange(max_range, min_range - 1, -1):
-        c = product_concat(i, [1, 2])
-        if is_pandigital(c):
-            print c
+        candidate = product_concat(i, [1, 2])
+        if is_pandigital(candidate):
+            print candidate
             return
 
 
 def product_concat(x, l):
-    m = map(lambda e: x * e, l)
-    return reduce(lambda e, p: e + str(p), m, "")
+    products = map(lambda e: x * e, l)
+    return reduce(lambda prev, e: prev + str(e), products, "")
 
 
 def is_pandigital(x):
