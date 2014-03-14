@@ -17,11 +17,11 @@ for (D) must be more than this number.
 which means D has to start with 9
 3- For D to start with 9, we need X to start with 9 as well.
 4- For D to be 9 digits, X has to be 4 digits and n = 2.
-    ** if X = 1 digit (which means X = 9 given the finding in #3) the max number will be the one given in the example
-    ** if X is 2 digits (98 ~ 91) there is no value in n that can produce a D with 9 digits
-    ** if X is 3 digits (987 ~ 912) there is no value in n that can produce a D with 9 digits
+    ** if X is 1 digit (which means X = 9 given the finding in #3) the max number will be the one given in the example
+    ** if X is 2 digits (98 ~ 91) there is no value of n that can produce a D with 9 digits
+    ** if X is 3 digits (987 ~ 912) there is no value of n that can produce a D with 9 digits
     ** if X is 4 digits (9876 ~ 9123) the only value of n > 1 to produce D with 9 digits is n = 2
-    ** if X is 5 digits (98765 ~ 91234) there is no value in n that can produce D with 9 digits
+    ** if X is 5 digits (98765 ~ 91234) there is no value of n that can produce D with 9 digits
 
 So from previous analysis the only range of X that has the right value is (9876 to 9123) with n = 2
 '''
