@@ -1,5 +1,4 @@
 #! /usr/bin/env python
-import itertools
 from AutoMeasure import AutoMeasure
 
 __author__ = 'Mohamed.Elsherif'
@@ -25,6 +24,7 @@ which means D has to start with 9
 
 So from previous analysis the only range of X that has the right value is (9876 to 9123) with n = 2
 '''
+
 
 @AutoMeasure
 def main():
