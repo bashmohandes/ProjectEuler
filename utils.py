@@ -44,6 +44,15 @@ def lcm_list(l):
     return reduce(lcm, l)
 
 
+def is_square(n):
+    s = 0
+    for i in xrange(1, n + 1, 2):
+        s += i
+        if s == n:
+            return True
+    return False
+
+
 @Memoize
 def fact(n):
     if n == 0:
