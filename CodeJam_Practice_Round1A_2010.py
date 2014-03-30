@@ -6,7 +6,7 @@ __author__ = 'Mohamed.Elsherif'
 
 @AutoMeasure
 def main():
-    with open('A-large-practice.in') as input_file:
+    with open('A-small-practice.in') as input_file:
         T = int(input_file.readline())
         result = []
         for i in xrange(T):
@@ -40,7 +40,6 @@ class Board:
         for r in xrange(self.N):
             for c in xrange(self.N):
                 t_board[c][r] = self._board[r][c]
-
         self._board = [[x for x in reversed(r)] for r in t_board]
 
     def apply_gravity(self):
@@ -53,13 +52,11 @@ class Board:
 
     def who_wins(self):
         p_wins = {"R":False, "B":False}
-
         for r in reversed(xrange(self.N)):
             for c in xrange(self.N):
                 if self._board[r][c] != '.' and not p_wins[self._board[r][c]]:
                     if self.wins(r, c, self.K):
                         p_wins[self._board[r][c]] = True
-
         if p_wins["R"] and p_wins["B"]:
             return "Both"
         elif p_wins["R"]:
