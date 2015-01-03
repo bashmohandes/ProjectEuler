@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a37728-cfdf-4d44-a440-4eedcd58b918" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/B-large-practice.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeJam_Worldcup.py" afterPath="$PROJECT_DIR$/CodeJam_Worldcup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ProjectEuler.iml" afterPath="$PROJECT_DIR$/.idea/ProjectEuler.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -26,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Problem_3.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="506">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Problem_4.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem_4.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,10 +38,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem_92.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Problem_92.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem_92.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0952381" vertical-offset="0" max-vertical-offset="924">
+            <state line="4" column="28" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="902">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CodeJam_Worldcup.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CodeJam_Worldcup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="24" selection-start="1357" selection-end="1357" vertical-scroll-proportion="1.2156013" vertical-offset="22" max-vertical-offset="2596">
+              <folding>
+                <element signature="e#24#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoMeasure.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoMeasure.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="396">
               <folding />
             </state>
           </provider>
@@ -56,7 +70,7 @@
       <file leaf-file-name="Problem_24.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem_24.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="880">
+            <state line="3" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="902">
               <folding />
             </state>
           </provider>
@@ -84,15 +98,6 @@
         <entry file="file://$PROJECT_DIR$/Problem_53.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="0" selection-start="414" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="484" max-vertical-offset="660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem_29.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem_29.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="440">
               <folding />
             </state>
           </provider>
@@ -138,6 +143,7 @@
         <option value="$PROJECT_DIR$/Problem_26.py" />
         <option value="$PROJECT_DIR$/Problem_100.py" />
         <option value="$PROJECT_DIR$/Problem_92.py" />
+        <option value="$PROJECT_DIR$/CodeJam_Worldcup.py" />
       </list>
     </option>
   </component>
@@ -181,10 +187,6 @@
               <option name="myItemId" value="ProjectEuler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -214,27 +216,12 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.Problem_92">
-    <configuration default="false" name="Problem_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ProjectEuler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem_3.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mohamed\Documents\GitHub\ProjectEuler" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.CodeJam_Worldcup">
     <configuration default="false" name="Problem_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,6 +289,26 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ProjectEuler" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem_92.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CodeJam_Worldcup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ProjectEuler" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeJam_Worldcup.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -431,19 +438,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Problem_3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Problem_4" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Problem_53" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Problem_24" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Problem_92" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Problem_4" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Problem_53" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Problem_24" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Problem_92" />
+      <item index="4" class="java.lang.String" itemvalue="Python.CodeJam_Worldcup" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Problem_92" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Problem_24" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Problem_53" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Problem_4" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Problem_3" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CodeJam_Worldcup" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Problem_92" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Problem_24" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Problem_53" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Problem_4" />
       </list>
     </recent_temporary>
   </component>
@@ -480,17 +487,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29322916" sideWeight="0.6714443" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33157894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18697916" sideWeight="0.6714443" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3308746" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33052632" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2792413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3351709" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -519,38 +526,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Problem_53.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem_29.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem_27.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="616" max-vertical-offset="924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problem_4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="11" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="770">
@@ -598,9 +577,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_29.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="440">
-          <folding />
-        </state>
+        <state line="8" column="4" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_27.py">
@@ -675,9 +652,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="69" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="6" column="20" selection-start="69" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
@@ -697,9 +672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="69" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="506">
-          <folding />
-        </state>
+        <state line="6" column="20" selection-start="69" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="506" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
@@ -743,9 +716,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_29.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
-          <folding />
-        </state>
+        <state line="8" column="4" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Memoize.py">
@@ -779,9 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
@@ -798,9 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_92.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_27.py">
@@ -812,29 +779,49 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/itertools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="8" selection-start="6584" selection-end="6584" vertical-scroll-proportion="0.62239295" vertical-offset="3635" max-vertical-offset="14168">
-          <folding />
-        </state>
+        <state line="191" column="8" selection-start="6584" selection-end="6584" vertical-scroll-proportion="0.62239295" vertical-offset="3635" max-vertical-offset="14168" />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/cStringIO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3014">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3014" />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/re.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.42857143" vertical-offset="396" max-vertical-offset="6226">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.42857143" vertical-offset="396" max-vertical-offset="6226" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem_92.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0952381" vertical-offset="0" max-vertical-offset="924">
+        <state line="4" column="28" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="902">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoMeasure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B-large-practice.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11176" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worldcup.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeJam_Worldcup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="24" selection-start="1357" selection-end="1357" vertical-scroll-proportion="1.2156013" vertical-offset="22" max-vertical-offset="2596">
+          <folding>
+            <element signature="e#24#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
